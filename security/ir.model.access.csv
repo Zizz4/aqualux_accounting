@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_invoice_make_picking_wizard,access_invoice_make_picking_wizard,model_invoice_make_picking,base.group_user,1,1,1,1
+access_picking_make_invoice_wizard,access_picking_make_invoice_wizard,model_picking_make_invoice,base.group_user,1,1,1,1
