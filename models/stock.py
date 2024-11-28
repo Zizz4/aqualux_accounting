@@ -343,6 +343,12 @@ class StockPicking(models.Model):
                 _("Please select single type transfer"))
 
 
+class StockWarehouse(models.Model):
+    _inherit = 'stock.warehouse'
+
+    allowed_user_ids = fields.Many2many(comodel_name='res.users', string='Allowed User')
+
+
 class StockReturnInvoicePicking(models.TransientModel):
     _inherit = 'stock.return.picking'
 

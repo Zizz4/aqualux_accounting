@@ -28,9 +28,10 @@
     'data': [
         'security/ir.model.access.csv',
 
-        'views/account_move.xml',
         'views/res_config_settings.xml',
+        'views/account_move.xml',
         'views/stock_picking.xml',
+        'views/stock_warehouse.xml',
 
         'wizard/picking_make_invoice.xml',
         'wizard/invoice_make_picking.xml',
